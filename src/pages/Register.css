@@ -1,0 +1,103 @@
+
+.cont{
+	width: 3.75rem;
+	height: 6.67rem;
+	background-color:#00887b;
+	position: absolute;
+}
+._register>div{
+	position: relative;
+	
+}
+.info,._pdw,.psd,.phoneY{
+	width: 90%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 6% 5%;	
+    border-radius: 10px;
+}
+.info{
+	margin-top: 0.2rem;
+}
+._pdw{
+	margin-top: 0.1rem;
+}
+.psw,._phone,.xin,.asd{
+	width: 70%;
+	border: none;
+	outline: 0;
+	font-size: 16px "黑体";
+	background: #fff;
+	margin: 0 auto;
+	color: #333;
+}
+.xin{
+	width: 50%;
+}
+.psd{
+	margin-top: 0.2rem;
+}
+.phoneY{
+	margin-top: 0.2rem
+}
+
+.yan{
+	margin: 0.1rem 0  0 0.2rem
+}
+.yan a{
+	margin-left: 0.2rem;
+	font-size: 14px;
+	color:#45e3be ;
+	text-decoration: none;
+}
+.yan em{
+	color:#9bffd3 ;
+	font-style: normal;
+	cursor: pointer;
+	line-height: 0.42rem;
+	text-decoration: underline;
+}
+.qu{
+	display: block;
+	border:1px solid #ccc ;
+	color: #ccc;
+	float: right;
+	font-weight:normal;
+	width: 0.5rem;
+	height: 0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+
+
+
+}
+.btn-green,.btn-reg{
+	display: block;
+	width: 90%;
+	font-size: 20px;
+	text-align: center;	
+	padding: 5%;
+	outline: 0;
+	color: #fff; 
+	border-radius: 10px;
+}
+.btn-green{
+	background-color: #0ac599;
+	margin:0.2rem 0 0 0.2rem;
+}
+.btn-reg{
+	border: 1px solid #45e3be;
+	color:#45e3be ;
+	margin:0.1rem 0 0 0.2rem;
+}
+.register-text{
+	color: #45e3be;
+	font-size: 13px;
+	line-height: 1.3;
+	margin: 0.1rem 0 0 0.2rem;
+}
+.register-text a{
+	color: #9bffd3;
+	text-decoration: underline;
+}
+

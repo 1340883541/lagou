@@ -1,0 +1,59 @@
+
+.Deng{
+	padding: 0.4rem 0;
+	height: 1.11rem;
+	text-align: center;
+	margin: 0 auto;
+	width: 1.25rem;
+	line-height: 1.11rem;
+}
+.log{
+	background-color:#1fc8a1 ;
+	width: 1.25rem;
+	margin-top: 3rem;
+	height: 0.45rem;
+	line-height: 0.45rem;
+	margin: 0 auto;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+}
+.btn1{
+	
+	width: 3.75rem;
+	margin: 0 auto;	
+}
+
+.btn1 a{
+
+	margin-left: 0.1rem;
+	display: inline-block;
+	width: 1.65rem;
+	height: 0.86rem;
+	line-height: 0.86rem;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	margin-top: 0.1rem;
+	background-color:#1fc8a1;
+	font-size: 16px
+}
+
+.photo img{
+	width: 0.72rem;
+	height: 0.72rem;
+	border-radius: 0.36rem;
+	margin:0.2rem 0;
+}
+.out{
+	height: 0.45rem;
+	width: 91%;
+	background-color:#1fc8a1;
+	line-height: 0.45rem;
+	color: #fff;
+	margin-top: 0.2rem;
+	display: block;
+	margin-left: 0.22rem;
+
+}
+

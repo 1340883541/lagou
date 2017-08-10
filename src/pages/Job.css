@@ -1,0 +1,248 @@
+
+.content .postitle {
+    height: 0.48rem;
+    line-height: 0.48rem;
+    padding: 0 15px;
+    border-bottom: 1px solid #e8e8e8;
+    float: left;
+}
+
+.content .postitle .title {
+    color: #333;
+    font-size: 18px;
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+
+}
+.content .postitle .collicon{
+    float: right;
+    width:2.1rem;
+    position: relative;
+    text-align: center;
+    height: 0.43rem;
+    border-bottom: none
+}
+
+.content .postitle .icon{
+    display: block;
+    width: 0.3rem;
+    margin-left: 1.7rem;
+    background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) no-repeat ;
+    background-size: 250px 250px
+}
+.content .postitle .text {
+    display: block;
+    color: #888;
+    font-size: 12px;
+    line-height: 30px;
+    width: 0.5rem;
+    margin-left: -.5rem;
+    margin-top: 0.2rem
+}
+
+.content .postitle .notcoll {
+    background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) no-repeat -170px -41px;
+    background-size: 250px 250px
+}
+
+.content .detail {
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 10px;
+    padding: 15px
+}
+
+.content .detail .items:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.content .detail .item {
+    float: left;
+    color: #333;
+    font-size: 15px;
+    position: relative;
+    width: 33.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 11px
+}
+
+.content .detail .item:nth-child( 3n) {
+    text-align: right
+}
+
+.content .detail .item:nth-child( 3n - 1) {
+    text-align: center
+}
+
+.content .detail .icon {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle
+}
+
+.content .detail .text {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    color: #000;
+}
+
+.content .detail .salary .icon {
+    background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) no-repeat -66px -48px;
+    background-size: 250px 250px
+}
+
+.content .detail .workaddress .icon {
+    background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) no-repeat -79px -49px;
+    background-size: 250px 250px
+}
+
+.content .detail .jobnature .icon {
+    background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) no-repeat -93px -49px;
+    background-size: 250px 250px
+}
+
+.content .detail .workyear .icon {
+    background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) no-repeat -110.5px -49.5px;
+    background-size: 250px 250px
+}
+
+.content .detail .education .icon {
+    background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) no-repeat -127.5px -49px;
+    background-size: 250px 250px
+}
+
+.content .detail .temptation {
+    color: #888;
+    word-break: break-all;
+    font-size: 14px;
+
+}
+
+.content .company {
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 10px;
+    padding: 15px
+}
+
+.content .company:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.content .company .logo {
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left
+}
+
+.content .company .desc {
+    margin-left: -0.3rem;
+    min-height: 10px;
+    margin-top: -0.2rem
+}
+
+
+.content .company .dleft {
+    float: left;
+    min-height: 10px;
+    min-width: 10px;
+    max-width: 80%;
+
+}
+
+.content .company .dleft .title {
+    color: #00b38a;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    margin-left: -0.6rem
+}
+
+.content .company .dleft .info {
+    color: #888;
+    font-size: 13px;
+    margin-left: 0.3rem;
+    margin-top: 0.02rem;
+}
+
+.content .company .dright {
+    float: right;
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) no-repeat -222.5px -3.5px;
+    background-size: 250px 250px;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem
+}
+
+
+
+.content .positiondesc .header {
+    background-color: #00b38a;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    color: #00b38a;
+    font-size: 14px;
+    background-color: #d2f9f0
+}
+
+.content .positiondesc .content {
+    word-break: break-all;
+    padding: 15px;
+    color: #555;
+    font-size: 13px;
+    line-height: 22px
+}
+
+.content .deliver {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 17px;
+    text-align: center
+}
+
+
+.content .positiondesc .header {
+    background-color: #d2f9f0;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    padding-left: 0.2rem;
+    color: #b38a00;
+    font-size: 0.18rem;
+  
+}
+.content .positiondesc .content {
+    word-break: break-all;
+    padding:0.1rem;
+    color: #555;
+    font-size:0.14rem;
+    line-height: 0.2rem;
+    margin-left: -0.1rem
+}
+.MsoListParagraph{
+  float: left;
+}

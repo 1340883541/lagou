@@ -1,0 +1,102 @@
+
+.con{
+	position: relative;
+	border: 1px solid #e8e8e8;
+
+}
+#top{
+	position: fixed;
+	top: 0;
+}
+.lbutton{
+	float: left;
+	height: 0.45rem;
+	line-height: 0.45rem;
+	text-align: center;
+	width: 0.88rem;
+	border-right: 1px solid #e8e8e8;
+	font-size: 16px;
+}
+.rinput{
+	position: relative;
+	height: 0.45rem;
+	margin-left:0.89rem;
+
+}
+.inputer{
+	border: none;
+	line-height: 0.45rem;
+	display: block;
+	height: 0.4rem;
+	float: left;
+	outline: 0;
+	padding: 10px 0;
+	color: #333;
+	margin: 0 0 0 5%;
+	width: 75%;
+	
+}
+.rinput .iconfont{
+	display: inline-block;
+	height: 0.45rem;
+	line-height: 0.45rem;
+	float: right;
+	position: relative;
+	width: 20%;
+}
+.cityicon{
+	font-size: 14px;
+	color: #888;
+	width: 3.75rem;
+	height: 100%;
+	height: 6.2rem;
+	line-height: 0.24rem;
+	background: #fff;
+	display: none;
+	position: fixed;
+	top: 0.45rem;
+	z-index: 999;
+	overflow: scroll;
+	
+	
+} 
+.cityies{
+	border-bottom: 1px solid #e8e8e8;
+	margin-left:-3rem ;
+}
+.cities-list{
+	width: 100%;
+	height:1.2rem ;
+	display: flex;
+	flex-wrap: wrap
+}
+.cities-list li{
+	width: 1.25rem;
+	height: 0.6rem;
+	list-style: none;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 16px;
+}
+
+.history{
+	background-color:#fafafa;
+	color: #666;
+}
+.history-item{
+	height: 0.45rem;
+	line-height: 0.45rem;
+	padding: 0 0 0 0.23rem;
+	font-size: 16px;
+	border-bottom: 1px solid #e8e8e8
+}
+.text{
+	color: #e8e8e8;
+}
+.delicon{
+	margin-left: 2.9rem;
+	font-size:14px;
+	color: #e8e8e8;
+}
+
+

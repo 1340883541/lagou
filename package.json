@@ -1,16 +1,23 @@
 {
-  "name": "qq",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "lagou",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^2.8.1",
+    "react-scripts": "1.0.10"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8090",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.4.1",
-    "gulp-uglify": "^3.0.0"
+    "json-server": "^0.11.2"
   }
 }

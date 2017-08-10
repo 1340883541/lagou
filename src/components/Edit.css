@@ -1,0 +1,63 @@
+.content .custom-info {
+    border-bottom: 1px solid #e8e8e8;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 15px;
+    color: #555;
+    font-size: 14px;
+    position: relative
+}
+
+.content .custom-info:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.content .custom-info .info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-right: 100px;
+    height: 100%;
+    position: relative
+}
+
+.content .custom-info .go {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    color: #00b38a;
+    border-radius: 15px
+}
+
+.content .custom-info .go:active {
+    background-color: #f0f0f0
+}
+
+.content .custom-info .icon {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    /* background: url(//m.lagou.com/images/mobile/asset/common/img/icon.png ) 
+    no-repeat -88px 7px; */
+    background-size: 250px 250px
+}
+
+.content .custom-info .incoshow {
+    display: inline-block
+}
+
+.content .custom-info .text {
+    font-style: normal
+}

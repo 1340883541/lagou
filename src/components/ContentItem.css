@@ -1,0 +1,71 @@
+
+.activeable{
+	list-style: none;
+	border-bottom: 1px solid #e8e8e8;
+	display: flex;
+	padding: 2px;
+
+
+}
+
+.item-logo{
+	width:0.6rem ;
+	margin-top: 0.2rem;
+	height:0.6rem;
+	
+}
+.item-desc{
+	margin-left:4px;
+	color: #000;
+	
+}
+
+ .item-desc .item-title{
+	font-size: 0.18rem;
+	margin-bottom:0.06rem;
+	width: 80%;
+	font-weight:bold;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: left;
+}
+.item-salary{
+	position: absolute;
+	z-index: 0;
+	font-size: 16px;
+	right:0.2rem;
+	color: #00b38a;
+}
+.item-time{
+margin: 0;
+width: 0.90rem;
+}
+
+.deng{
+	height:0.43rem ;
+	border-bottom: 1px solid #e8e8e8;
+	line-height: 0.43rem;
+}
+.De{
+	padding: 0 0 0 0.1rem;
+	float: left;
+}
+
+.lu{
+	width: 0.84rem;
+	height: 0.3rem;
+	background-color: #f5f5f5;
+	float:right;
+	line-height: 0.3rem;
+	border-radius: 20px;
+	margin-top: 5px;
+	margin-right: 10px;
+	color: #00b38a;
+
+}
+
+
+
+
+
